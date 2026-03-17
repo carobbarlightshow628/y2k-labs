@@ -1,0 +1,23 @@
+{
+  "name": "po-skills",
+  "owner": {
+    "name": "Radarum",
+    "email": "gus_y2k@hotmail.com"
+  },
+  "metadata": {
+    "description": "Product Owner skills for Azure DevOps backlog management and work item automation.",
+    "version": "1.0.0",
+    "tags": ["azure-devops", "product-owner", "backlog", "agile", "scrum"]
+  },
+  "plugins": [
+    {
+      "name": "po-tools",
+      "description": "Product Owner tools for Azure DevOps automation",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/azure-devops-backlog-creator"
+      ]
+    }
+  ]
+}
