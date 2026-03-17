@@ -1,0 +1,38 @@
+{
+  "name": "po-skills",
+  "version": "1.0.0",
+  "description": "Product Owner agent skills for Azure DevOps. Reads documents and creates full backlogs automatically.",
+  "bin": {
+    "po-skills": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "skills",
+    ".claude-plugin"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "azure-devops",
+    "product-owner",
+    "backlog",
+    "agile",
+    "scrum",
+    "work-items",
+    "agent-skills"
+  ],
+  "author": "GusY2K",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GusY2K/po-skills.git"
+  },
+  "homepage": "https://github.com/GusY2K/po-skills",
+  "bugs": {
+    "url": "https://github.com/GusY2K/po-skills/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
