@@ -14,6 +14,8 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/po-skills"><img src="https://img.shields.io/npm/v/po-skills?color=00F0A0&label=npm" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/po-skills"><img src="https://img.shields.io/npm/dm/po-skills?color=00F0A0&label=downloads" alt="npm downloads"></a>
+  <a href="https://github.com/GusY2K/po-skills/stargazers"><img src="https://img.shields.io/github/stars/GusY2K/po-skills?color=00F0A0&style=flat" alt="GitHub stars"></a>
   <a href="https://github.com/GusY2K/po-skills"><img src="https://img.shields.io/github/license/GusY2K/po-skills?color=00F0A0" alt="license"></a>
 </p>
 

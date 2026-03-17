@@ -1,0 +1,14 @@
+# Auto detect text files and normalise line endings
+* text=auto eol=lf
+
+# Denote all files that are truly binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.tgz binary
+
+# Shell scripts must have LF
+*.sh text eol=lf
+
+# Windows-specific files can have CRLF
+*.bat text eol=crlf
