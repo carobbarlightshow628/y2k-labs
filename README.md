@@ -330,11 +330,28 @@ New contributors run `npx skills install` to restore all locked skills.
 
 ---
 
-## Compatibility
+## Multi-Runtime Support
 
-Works with any AI agent that supports the [Agent Skills standard](https://agentskills.io/specification):
+po-skills works natively with all major AI coding agents. The installer creates the correct config files for each runtime automatically:
 
-Claude Code, Cursor, GitHub Copilot, Windsurf, Cline, CodeBuddy, Aider, Continue, OpenCode, Zed, and [30+ more](https://github.com/vercel-labs/skills#supported-agents).
+| Runtime | Config Location | Format |
+|---------|----------------|--------|
+| **Claude Code** | `~/.claude/skills/<name>/` | `SKILL.md` (native) |
+| **Cursor** | `.cursor/rules/po-skills.mdc` | MDC rules file |
+| **GitHub Copilot** | `.github/copilot-instructions.md` | Project instructions |
+| **Windsurf** | `.windsurf/rules/po-skills.md` | Rules file |
+| **Cline** | `~/.cline/skills/<name>/` | `SKILL.md` (symlink) |
+
+Install for a specific runtime:
+```bash
+npx po-skills --agent=cursor
+npx po-skills --agent=copilot
+npx po-skills --agent=windsurf
+npx po-skills --agent=cline
+npx po-skills --agent=all        # all runtimes at once
+```
+
+Also compatible with any agent that supports the [Agent Skills standard](https://agentskills.io/specification): CodeBuddy, Aider, Continue, OpenCode, Zed, and [30+ more](https://github.com/vercel-labs/skills#supported-agents).
 
 ---
 

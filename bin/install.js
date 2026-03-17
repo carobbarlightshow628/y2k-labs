@@ -60,6 +60,11 @@ const runtimes = {
     name: 'Windsurf',
     global: path.join(home, '.windsurf', 'skills'),
     local: path.join(process.cwd(), '.windsurf', 'skills')
+  },
+  'cline': {
+    name: 'Cline',
+    global: path.join(home, '.cline', 'skills'),
+    local: path.join(process.cwd(), '.cline', 'skills')
   }
 };
 
