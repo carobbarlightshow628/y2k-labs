@@ -24,6 +24,12 @@
 npx y2k-labs -g
 ```
 
+<p align="center">Works on Mac, Windows, and Linux.</p>
+
+<p align="center">
+  <img src="assets/banner-preview.png" alt="Y2K Labs terminal" width="600">
+</p>
+
 ---
 
 ## Skills
