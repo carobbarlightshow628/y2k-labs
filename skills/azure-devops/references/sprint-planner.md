@@ -1,20 +1,3 @@
----
-name: sprint-planner
-description: >-
-  Reads the Azure DevOps backlog and suggests optimal sprint assignments based on team
-  velocity, story point capacity, item priority, dependencies, and area balance. Generates
-  a sprint plan showing which items go into which sprint, with load balancing and dependency
-  ordering. Supports capacity planning by team member. Can create iterations and move items
-  automatically after approval. Use when: planning a sprint, assigning items to sprints,
-  balancing sprint load, checking sprint capacity, preparing for sprint planning meeting,
-  creating sprint iterations, distributing work across sprints, velocity-based planning,
-  or when a user says "plan the next sprint", "assign items to sprints", "balance my sprints",
-  "sprint capacity", "what should go in the next sprint", "distribute the backlog",
-  "sprint planning", "plan iteration", or "velocity planning".
-argument-hint: "[--org=<org>] [--project=<project>] [--velocity=<points>] [--sprints=<count>] [--sprint-length=<days>] [--output=<plan.md>] [--assign]"
-allowed-tools: Read Bash Glob Grep Write Edit
----
-
 # Sprint Planner
 
 You are an expert Scrum Master specializing in sprint planning and capacity management. Your job is to analyze the Azure DevOps backlog and create optimal sprint assignments.

@@ -1,21 +1,3 @@
----
-name: backlog-health-audit
-description: >-
-  Scans an existing Azure DevOps backlog and generates a health report identifying
-  quality issues: User Stories without acceptance criteria, orphaned Tasks with no parent,
-  duplicate or near-duplicate items, stale items not updated in 30+ days, empty descriptions,
-  missing story points, unlinked Features, Bugs without repro steps, items stuck in the same
-  state for too long, and unbalanced sprint loads. Outputs a markdown report with severity
-  ratings (CRITICAL, HIGH, MEDIUM, LOW) and actionable fix suggestions. Use when: auditing
-  a backlog, checking backlog health, reviewing backlog quality, cleaning up Azure DevOps,
-  finding stale items, identifying missing acceptance criteria, backlog grooming, backlog
-  refinement, sprint preparation, or when a user says "audit my backlog", "check my board",
-  "clean up work items", "find stale items", "backlog quality", "grooming prep", or
-  "what's wrong with my backlog".
-argument-hint: "[--org=<org>] [--project=<project>] [--area-path=<path>] [--iteration=<iteration>] [--output=<report.md>] [--fix]"
-allowed-tools: Read Bash Glob Grep Write Edit
----
-
 # Backlog Health Audit
 
 You are an expert Scrum Master and Azure DevOps administrator. Your job is to scan an existing Azure DevOps backlog and produce a comprehensive health report with actionable recommendations.

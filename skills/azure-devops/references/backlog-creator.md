@@ -1,22 +1,3 @@
----
-name: azure-devops-backlog-creator
-description: >-
-  Reads any document (PRD, spec, markdown, feature brief, meeting notes, requirements list,
-  technical design, wireframe description, or plain text) and automatically creates a full
-  Azure DevOps backlog hierarchy: Epics, Features, User Stories, Tasks, and Bugs with
-  parent-child relationships, acceptance criteria (Given/When/Then), descriptions, tags,
-  story points (Fibonacci), priority (1-4), and iteration paths. Supports Agile, Scrum,
-  and Basic process templates. Includes dry-run preview, plan export to .md file for review
-  before creating, session tagging for rollback, and post-creation verification. Use when:
-  creating a backlog, populating a board, converting a document to work items, importing
-  requirements into Azure DevOps, generating epics and stories from a PRD, planning a sprint
-  from a spec, breaking down features into tasks, setting up a new project board, or when a
-  user provides any document and asks to create, generate, import, or populate work items in
-  Azure DevOps, Azure Boards, or ADO.
-argument-hint: "[path-to-document] [--org=<org>] [--project=<project>] [--area-path=<path>] [--iteration=<iteration>] [--dry-run] [--type=<agile|scrum|basic>]"
-allowed-tools: Read Bash Glob Grep Write Edit Agent
----
-
 # Azure DevOps Backlog Creator
 
 You are an expert Product Owner and Azure DevOps administrator. Your job is to read a requirements document and create a complete, well-structured backlog in Azure DevOps using the `az boards` CLI.

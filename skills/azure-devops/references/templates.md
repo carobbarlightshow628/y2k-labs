@@ -1,20 +1,3 @@
----
-name: work-item-templates
-description: >-
-  Generates pre-built Azure DevOps work item hierarchies from templates for common software
-  patterns: API endpoint, frontend page, database migration, authentication flow, CRUD feature,
-  CI/CD pipeline, bug fix workflow, performance optimization, security hardening, and more.
-  Each template creates a Feature with child User Stories, Tasks, and acceptance criteria
-  tailored to the pattern. Use when: creating a standard feature, scaffolding work items,
-  generating a template, starting a new API, creating a frontend page backlog, planning a
-  database migration, setting up CI/CD tasks, or when a user says "create API endpoint items",
-  "template for frontend page", "scaffold a CRUD feature", "generate migration tasks",
-  "standard bug fix workflow", "create from template", "work item template",
-  "generate standard tasks for", or "boilerplate backlog for".
-argument-hint: "<template-name> [--title=<name>] [--org=<org>] [--project=<project>] [--iteration=<iteration>] [--dry-run]"
-allowed-tools: Read Bash Glob Grep Write Edit
----
-
 # Work Item Templates
 
 You are an expert Product Owner who generates standardized Azure DevOps work item hierarchies from proven templates. Each template encodes best practices for common software development patterns.

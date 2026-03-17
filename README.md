@@ -29,21 +29,22 @@ Works with **Claude Code, Cursor, GitHub Copilot, Windsurf, Cline**, and [40+ AI
 
 ## Skills
 
-### Azure DevOps
+### [azure-devops](./skills/azure-devops/)
 
-Skills for Product Owners, Scrum Masters, and teams working with Azure DevOps Boards.
+Complete Azure DevOps automation — one skill that does everything:
 
-| Skill | Description |
-|-------|-------------|
-| [azure-devops-backlog-creator](./skills/azure-devops-backlog-creator/) | Reads any document (PRD, spec, meeting notes) and creates a full backlog hierarchy: Epics → Features → User Stories → Tasks → Bugs with parent-child links, acceptance criteria, and story points |
-| [backlog-health-audit](./skills/backlog-health-audit/) | Scans an existing Azure DevOps backlog and generates a health report (0-100 score) identifying missing acceptance criteria, orphaned tasks, stale items, duplicates, and 8 more issue types |
-| [sprint-planner](./skills/sprint-planner/) | Reads the backlog and suggests optimal sprint assignments based on team velocity, priority ordering, and dependency analysis |
-| [work-item-templates](./skills/work-item-templates/) | 18 pre-built templates for common patterns: API endpoint, CRUD feature, auth flow, database migration, CI/CD pipeline, dashboard, and more |
+| Capability | Description |
+|-----------|-------------|
+| **Backlog Creator** | Reads any document (PRD, spec, meeting notes) and creates a full hierarchy: Epics → Features → Stories → Tasks → Bugs with links, acceptance criteria, and story points |
+| **Health Audit** | Scans your existing backlog and generates a 0-100 health score with 12 audit rules across 4 severity levels |
+| **Sprint Planner** | Suggests optimal sprint assignments based on team velocity, priority ordering, and dependency analysis |
+| **Templates** | 18 pre-built templates: API endpoint, CRUD feature, auth flow, database migration, CI/CD pipeline, and more |
+| **CLI Reference** | Complete guide for `az boards`, `az repos`, `az pipelines` with examples, patterns, and best practices |
 
-<!-- ### Frontend (coming soon) -->
-<!-- ### Backend (coming soon) -->
-<!-- ### DevOps (coming soon) -->
-<!-- ### Testing (coming soon) -->
+<!-- ### frontend (coming soon) -->
+<!-- ### backend (coming soon) -->
+<!-- ### devops (coming soon) -->
+<!-- ### testing (coming soon) -->
 
 ---
 
