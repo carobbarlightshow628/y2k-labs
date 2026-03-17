@@ -1,18 +1,19 @@
-# Y2K Labs
+<h1 align="center">Y2K LABS</h1>
 
 <p align="center">
-  <img src="assets/banner-preview.png" alt="Y2K Labs" width="620">
+  Agent skills for the entire software development lifecycle.<br>
+  Azure DevOps, backlog automation, sprint planning, and more.
 </p>
 
 <p align="center">
-  Agent skills for the entire software development lifecycle.
+  <a href="https://www.npmjs.com/package/y2k-labs"><img src="https://img.shields.io/npm/v/y2k-labs?color=00F0A0&label=NPM" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/y2k-labs"><img src="https://img.shields.io/npm/dm/y2k-labs?color=00F0A0&label=DOWNLOADS" alt="npm downloads"></a>
+  <a href="https://github.com/GusY2K/y2k-labs/stargazers"><img src="https://img.shields.io/github/stars/GusY2K/y2k-labs?color=00F0A0&label=STARS&style=flat" alt="GitHub stars"></a>
+  <a href="https://github.com/GusY2K/y2k-labs"><img src="https://img.shields.io/github/license/GusY2K/y2k-labs?color=00F0A0&label=LICENSE" alt="license"></a>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/y2k-labs"><img src="https://img.shields.io/npm/v/y2k-labs?color=00F0A0&label=npm" alt="npm version"></a>
-  <a href="https://www.npmjs.com/package/y2k-labs"><img src="https://img.shields.io/npm/dm/y2k-labs?color=00F0A0&label=downloads" alt="npm downloads"></a>
-  <a href="https://github.com/GusY2K/y2k-labs/stargazers"><img src="https://img.shields.io/github/stars/GusY2K/y2k-labs?color=00F0A0&style=flat" alt="GitHub stars"></a>
-  <a href="https://github.com/GusY2K/y2k-labs"><img src="https://img.shields.io/github/license/GusY2K/y2k-labs?color=00F0A0" alt="license"></a>
+  A complete agent skills collection for <strong>Claude Code</strong>, <strong>Cursor</strong>, <strong>GitHub Copilot</strong>, <strong>Windsurf</strong>, <strong>Cline</strong>, and <a href="https://github.com/vercel-labs/skills">40+ AI agents</a>.
 </p>
 
 ---
@@ -22,8 +23,6 @@
 ```bash
 npx y2k-labs -g
 ```
-
-Works with **Claude Code, Cursor, GitHub Copilot, Windsurf, Cline**, and [40+ AI agents](https://github.com/vercel-labs/skills).
 
 ---
 
