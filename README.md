@@ -73,18 +73,21 @@ Start a new Claude Code session and type `/` — you should see `azure-devops-ba
 
 ---
 
+## Update
+
+```bash
+# Update to latest version (re-runs the installer with newest skills)
+npx po-skills@latest -g
+```
+
 ## Manage
+
+If you also use the `skills` CLI (Vercel), these commands work too:
 
 ```bash
 # List installed skills
 npx skills list
 npx skills ls -g          # global only
-
-# Check for updates
-npx skills check
-
-# Update all skills
-npx skills update
 
 # Remove
 npx skills remove azure-devops-backlog-creator
